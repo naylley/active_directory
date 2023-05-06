@@ -8,3 +8,11 @@
 ```shell
 Install-windowsfeature AD-Domain-Services -IncludemanagementTools
 ```
+3. Change DNS
+```
+Get-NetIPAddress
+```
+Take note of Interface index
+```
+Set-DnsClientServerAddress -InterfaceIndex {} -ServerAddresses {DC IP}
+```
