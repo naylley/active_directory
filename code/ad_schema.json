@@ -1,0 +1,26 @@
+{
+"domain" : "hunter.com",
+"groups" : [
+    {
+        "name":"Licensed_hunters"
+    }
+],
+
+"users": [
+    
+    {
+        "name" : "Gon on",
+        "password":"password1",
+        "groups": [
+            "Licensed_hunters"
+        ]
+    },
+    {
+        "name" : "Killua illua",
+        "password":"password2",
+        "groups": [
+            "Licensed_hunters"
+        ]
+    }
+]
+}
